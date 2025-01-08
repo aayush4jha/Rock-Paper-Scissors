@@ -77,3 +77,83 @@ img {
 footer p {
     font-size: 1.15rem;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choices {
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 3rem;
+    }
+
+    .score-board {
+        gap: 2rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 2.5rem;
+    }
+
+    .score-board {
+        gap: 1.5rem;
+    }
+
+    #msg {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
