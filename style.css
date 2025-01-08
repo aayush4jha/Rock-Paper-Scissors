@@ -73,3 +73,7 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+footer p {
+    font-size: 1.15rem;
+}
