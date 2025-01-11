@@ -20,4 +20,4 @@ For computer, it will randomly select its choice.
 The game determines and displays the winner of the round.
 Replay the game as many times as you like!
 
-Thank you for exploring Rock-Paper Scissors Game Project!
+Thank you for exploring Rock-Paper-Scissors Game Project!
